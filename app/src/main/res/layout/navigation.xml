@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="TAKE MY CARD"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@id/search"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+
+        android:scaleType="centerInside"
+        android:src="@drawable/mainicon" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <pl.droidsonroids.gif.GifImageButton
+            android:id="@id/sendmenu"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/send" />
+
+        <pl.droidsonroids.gif.GifImageButton
+            android:id="@id/receivemenu"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/receive" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <pl.droidsonroids.gif.GifImageButton
+            android:id="@id/searchmenu"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/search" />
+
+        <pl.droidsonroids.gif.GifImageButton
+            android:id="@+id/satellite"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/profile" />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

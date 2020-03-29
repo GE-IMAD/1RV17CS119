@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="searchmenu" type="id"/>
+    <item name="receivemenu" type="id"/>
+    <item name="sendmenu" type="id"/>
+</resources>

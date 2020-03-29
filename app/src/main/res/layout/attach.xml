@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/attachtitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="50dp"
+        android:background="#ABAFA5"
+        android:gravity="center"
+        android:text="My Files"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+       >
+
+        <Button
+            android:id="@+id/attach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:text="Attach" />
+
+        <Button
+            android:id="@+id/deletebutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:text="Delete" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/attachlist"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+
+
+        android:listSelector="@color/colorAccent" />
+
+
+</LinearLayout>

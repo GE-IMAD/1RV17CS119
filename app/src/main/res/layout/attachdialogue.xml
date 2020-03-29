@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/attachtitle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:background="#A79A77"
+        android:backgroundTint="#00753D3D"
+        android:gravity="center"
+        android:text="Attachments"
+        android:textColor="#9B8143"
+        android:textColorLink="#FFC107"
+        android:textSize="30sp" />
+
+    <ListView
+        android:id="@+id/attachlist"
+        android:layout_width="match_parent"
+        android:layout_height="451dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="100dp"
+        android:background="#C4E7DD"
+        android:listSelector="@color/colorAccent" />
+
+
+
+</LinearLayout>
