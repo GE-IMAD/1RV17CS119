@@ -1,8 +1,10 @@
 
-TAKE MY CARD
 
-# 1RV17CS119
-#RAIKAR SIDDHARTH HARISH(CSE)
+
+# TAKE MY CARD 
+
+#  RAIKAR SIDDHARTH HARISH(CSE)
+#  1RV17CS119
 App built to share Business card  and brouchers using Bluetooth socket
 
 APP IS BUILT FOR BUISNESS COOMMUNITY
